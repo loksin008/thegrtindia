@@ -45,30 +45,6 @@ rivers_of_india() {
   done
 }
 
-# Function to display neighboring countries of India
-neighboring_countries_of_india() {
-  while true; do
-    echo "****************************************************"
-    echo "            Neighboring Countries of India"
-    echo "****************************************************"
-    echo "1. Pakistan: Shares a border in the west, with historical ties and current conflicts."
-    echo "2. China: Northern neighbor, shares the Himalayan border and has trade relations."
-    echo "3. Nepal: Located in the north, known for Mount Everest and cultural ties."
-    echo "4. Bhutan: Small Himalayan kingdom in the northeast."
-    echo "5. Bangladesh: Shares the eastern border, formerly part of India until 1947."
-    echo "6. Myanmar (Burma): Located in the east, gateway to Southeast Asia."
-    echo "7. Sri Lanka: Not directly connected by land but located south of India across the sea."
-    echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
-  done
-}
-
 # Function to display mountains of India
 mountains_of_india() {
   while true; do
@@ -215,6 +191,55 @@ national_symbols_of_india() {
     echo "8. National Sport: Field Hockey."
     echo "9. National Currency: Indian Rupee (INR)."
     echo "10. National Emblem: The Lion Capital of Ashoka."
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
+}
+
+# Function to display Union Territories of India
+union_territories_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "            Union Territories of India"
+    echo "****************************************************"
+    echo "1. Andaman and Nicobar Islands"
+    echo "2. Chandigarh"
+    echo "3. Dadra and Nagar Haveli and Daman and Diu"
+    echo "4. Lakshadweep"
+    echo "5. Delhi (National Capital Territory of Delhi)"
+    echo "6. Puducherry"
+    echo "7. Jammu and Kashmir (Union Territory since 2019)"
+    echo "8. Ladakh (Union Territory since 2019)"
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
+}
+
+# Function to display neighboring countries of India
+neighboring_countries_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "            Neighboring Countries of India"
+    echo "****************************************************"
+    echo "1. Pakistan: Shares a border in the west, with historical ties and current conflicts."
+    echo "2. China: Northern neighbor, shares the Himalayan border and has trade relations."
+    echo "3. Nepal: Located in the north, known for Mount Everest and cultural ties."
+    echo "4. Bhutan: Small Himalayan kingdom in the northeast."
+    echo "5. Bangladesh: Shares the eastern border, formerly part of India until 1947."
+    echo "6. Myanmar (Burma): Located in the east, gateway to Southeast Asia."
+    echo "7. Sri Lanka: Not directly connected by land but located south of India across the sea."
     echo "****************************************************"
     echo "1. Back to Main Menu"
     read -p "Enter your choice [1]: " choice
