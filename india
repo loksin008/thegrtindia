@@ -1,42 +1,77 @@
 #!/bin/bash
 
-# Introduction to India
-echo "****************************************************"
-echo "                Introduction to India"
-echo "****************************************************"
+# Function to display geographic introduction
+intro_india() {
+  echo "****************************************************"
+  echo "                Introduction to India"
+  echo "****************************************************"
+  echo "India is a vast country located in South Asia."
+  echo "Area: 3,287,263 square kilometers."
+  echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
+  echo "Capital: New Delhi."
+  echo "Largest City: Mumbai."
+  echo "****************************************************"
+}
 
-# Geographic Introduction of India
-echo ""
-echo "1. Geographic Features:"
-echo "India is a vast country located in South Asia."
-echo "Area: 3,287,263 square kilometers."
-echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
-echo "Major River Systems: Ganga, Yamuna, Brahmaputra, Narmada, and Godavari."
-echo ""
+# Function to display rivers of India
+rivers_of_india() {
+  echo "****************************************************"
+  echo "                  Rivers of India"
+  echo "****************************************************"
+  echo "1. Ganga: Sacred river, flows through northern India."
+  echo "2. Yamuna: Tributary of the Ganga, flows through Delhi."
+  echo "3. Brahmaputra: Major river in northeast India."
+  echo "4. Godavari: Longest river in southern India."
+  echo "5. Narmada: Flows westwards into the Arabian Sea."
+  echo "6. Krishna and Kaveri: Key rivers in the south."
+  echo "****************************************************"
+}
 
-# Cultural Diversity of India
-echo "2. Cultural Diversity:"
-echo "India has 28 states and 8 Union Territories."
-echo "There are 22 official languages, with Hindi and English being widely spoken."
-echo "Major Religions: Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism."
-echo "Festivals: Diwali, Holi, Eid, Christmas, Gurpurab, and Pongal."
-echo ""
+# Function to display mountains of India
+mountains_of_india() {
+  echo "****************************************************"
+  echo "                Mountains of India"
+  echo "****************************************************"
+  echo "1. The Himalayas: Highest mountain range, includes Mount Everest and Kanchenjunga."
+  echo "2. Aravalli Range: Oldest mountain range in India."
+  echo "3. Western Ghats: UNESCO World Heritage Site, runs parallel to the western coast."
+  echo "4. Eastern Ghats: Runs along the eastern coast."
+  echo "5. Vindhya Range: Separates northern and southern India."
+  echo "****************************************************"
+}
 
-# Historical Significance of India
-echo "3. Historical Significance:"
-echo "India is one of the oldest civilizations in the world."
-echo "It is home to ancient civilizations like the Indus Valley, Maurya Empire, Gupta Empire, and Mughal Empire."
-echo "Under the leadership of Mahatma Gandhi, India gained independence on 15th August 1947."
-echo ""
+# Function to display volcanoes of India
+volcanoes_of_india() {
+  echo "****************************************************"
+  echo "                Volcanoes of India"
+  echo "****************************************************"
+  echo "1. Barren Island Volcano: Only active volcano in South Asia, located in the Andaman Islands."
+  echo "2. Narcondam Volcano: Dormant volcano in the Andaman Islands."
+  echo "3. Dhinodhar Hills: Extinct volcano in Gujarat."
+  echo "****************************************************"
+}
 
-# Modern India: Economy and Science
-echo "4. Modern India:"
-echo "India's economy is one of the fastest-growing economies in the world."
-echo "India is a leader in space science. ISRO (Indian Space Research Organization) successfully launched missions like Chandrayaan and Mangalyaan."
-echo ""
+# Main Menu
+while true; do
+  echo ""
+  echo "****************************************************"
+  echo "               Welcome to India Info"
+  echo "****************************************************"
+  echo "Please select an option:"
+  echo "1. Introduction to India"
+  echo "2. Rivers of India"
+  echo "3. Mountains of India"
+  echo "4. Volcanoes of India"
+  echo "5. Exit"
+  echo "****************************************************"
+  read -p "Enter your choice [1-5]: " choice
 
-# Conclusion
-echo "****************************************************"
-echo "India: A symbol of Unity in Diversity."
-echo "India is renowned worldwide for its culture, history, and progress."
-echo "****************************************************"
+  case $choice in
+    1) intro_india ;;
+    2) rivers_of_india ;;
+    3) mountains_of_india ;;
+    4) volcanoes_of_india ;;
+    5) echo "Exiting... Goodbye!" ; break ;;
+    *) echo "Invalid choice! Please select a valid option." ;;
+  esac
+done
