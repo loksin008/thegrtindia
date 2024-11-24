@@ -87,6 +87,38 @@ volcanoes_of_india() {
   done
 }
 
+# Function to display all Prime Ministers of India
+prime_ministers_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "            Prime Ministers of India"
+    echo "****************************************************"
+    echo "1. Jawaharlal Nehru (1947–1964)"
+    echo "2. Gulzarilal Nanda (1964, 1966 - Interim)"
+    echo "3. Lal Bahadur Shastri (1964–1966)"
+    echo "4. Indira Gandhi (1966–1977, 1980–1984)"
+    echo "5. Morarji Desai (1977–1979)"
+    echo "6. Charan Singh (1979–1980)"
+    echo "7. Rajiv Gandhi (1984–1989)"
+    echo "8. Vishwanath Pratap Singh (1989–1990)"
+    echo "9. Chandra Shekhar (1990–1991)"
+    echo "10. P. V. Narasimha Rao (1991–1996)"
+    echo "11. Atal Bihari Vajpayee (1996, 1998–2004)"
+    echo "12. H. D. Deve Gowda (1996–1997)"
+    echo "13. I. K. Gujral (1997–1998)"
+    echo "14. Manmohan Singh (2004–2014)"
+    echo "15. Narendra Modi (2014–Present)"
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
+}
+
 # Main Menu
 while true; do
   echo ""
@@ -98,16 +130,18 @@ while true; do
   echo "2. Rivers of India"
   echo "3. Mountains of India"
   echo "4. Volcanoes of India"
-  echo "5. Exit"
+  echo "5. Prime Ministers of India"
+  echo "6. Exit"
   echo "****************************************************"
-  read -p "Enter your choice [1-5]: " choice
+  read -p "Enter your choice [1-6]: " choice
 
   case $choice in
     1) intro_india ;;
     2) rivers_of_india ;;
     3) mountains_of_india ;;
     4) volcanoes_of_india ;;
-    5) echo "Exiting... Goodbye!" ; break ;;
+    5) prime_ministers_of_india ;;
+    6) echo "Exiting... Goodbye!" ; break ;;
     *) echo "Invalid choice! Please select a valid option." ;;
   esac
 done
