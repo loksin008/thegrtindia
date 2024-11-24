@@ -1,42 +1,42 @@
 #!/bin/bash
 
-# भारत का परिचय
+# Introduction to India
 echo "****************************************************"
-echo "                    भारत का परिचय"
+echo "                Introduction to India"
 echo "****************************************************"
 
-# भारत का भौगोलिक परिचय
+# Geographic Introduction of India
 echo ""
-echo "1. भौगोलिक विशेषताएँ:"
-echo "भारत दक्षिण एशिया में स्थित एक विशाल देश है।"
-echo "क्षेत्रफल: 32,87,263 वर्ग किलोमीटर"
-echo "सीमा साझा करने वाले देश: पाकिस्तान, चीन, नेपाल, भूटान, बांग्लादेश, और म्यांमार।"
-echo "प्रमुख नदी प्रणाली: गंगा, यमुना, ब्रह्मपुत्र, नर्मदा, और गोदावरी।"
-echo ""
-
-# भारत का सांस्कृतिक परिचय
-echo "2. सांस्कृतिक विविधता:"
-echo "भारत में 28 राज्य और 8 केंद्र शासित प्रदेश हैं।"
-echo "यहाँ 22 आधिकारिक भाषाएँ हैं, और हिंदी और अंग्रेजी मुख्य रूप से बोली जाती हैं।"
-echo "प्रमुख धर्म: हिंदू धर्म, इस्लाम, ईसाई धर्म, सिख धर्म, बौद्ध धर्म, और जैन धर्म।"
-echo "त्योहार: दिवाली, होली, ईद, क्रिसमस, गुरुपर्व, और पोंगल।"
+echo "1. Geographic Features:"
+echo "India is a vast country located in South Asia."
+echo "Area: 3,287,263 square kilometers."
+echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
+echo "Major River Systems: Ganga, Yamuna, Brahmaputra, Narmada, and Godavari."
 echo ""
 
-# भारत का ऐतिहासिक परिचय
-echo "3. ऐतिहासिक महत्व:"
-echo "भारत विश्व की प्राचीनतम सभ्यताओं में से एक है।"
-echo "सिंधु घाटी सभ्यता, मौर्य साम्राज्य, गुप्त साम्राज्य और मुगल साम्राज्य जैसे ऐतिहासिक साम्राज्य यहाँ रहे।"
-echo "महात्मा गांधी के नेतृत्व में स्वतंत्रता संग्राम ने भारत को 15 अगस्त 1947 को स्वतंत्रता दिलाई।"
+# Cultural Diversity of India
+echo "2. Cultural Diversity:"
+echo "India has 28 states and 8 Union Territories."
+echo "There are 22 official languages, with Hindi and English being widely spoken."
+echo "Major Religions: Hinduism, Islam, Christianity, Sikhism, Buddhism, and Jainism."
+echo "Festivals: Diwali, Holi, Eid, Christmas, Gurpurab, and Pongal."
 echo ""
 
-# भारत की अर्थव्यवस्था और विज्ञान
-echo "4. आधुनिक भारत:"
-echo "भारत की अर्थव्यवस्था दुनिया की सबसे तेजी से बढ़ती अर्थव्यवस्थाओं में से एक है।"
-echo "भारत अंतरिक्ष विज्ञान में अग्रणी है। ISRO (भारतीय अंतरिक्ष अनुसंधान संगठन) ने चंद्रयान और मंगलयान जैसे मिशन सफलतापूर्वक किए हैं।"
+# Historical Significance of India
+echo "3. Historical Significance:"
+echo "India is one of the oldest civilizations in the world."
+echo "It is home to ancient civilizations like the Indus Valley, Maurya Empire, Gupta Empire, and Mughal Empire."
+echo "Under the leadership of Mahatma Gandhi, India gained independence on 15th August 1947."
 echo ""
 
-# निष्कर्ष
+# Modern India: Economy and Science
+echo "4. Modern India:"
+echo "India's economy is one of the fastest-growing economies in the world."
+echo "India is a leader in space science. ISRO (Indian Space Research Organization) successfully launched missions like Chandrayaan and Mangalyaan."
+echo ""
+
+# Conclusion
 echo "****************************************************"
-echo "भारत: विविधता में एकता का प्रतीक।"
-echo "भारत अपनी संस्कृति, इतिहास और प्रगति के लिए विश्वभर में प्रसिद्ध है।"
+echo "India: A symbol of Unity in Diversity."
+echo "India is renowned worldwide for its culture, history, and progress."
 echo "****************************************************"
