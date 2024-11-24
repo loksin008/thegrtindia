@@ -2,53 +2,89 @@
 
 # Function to display geographic introduction
 intro_india() {
-  echo "****************************************************"
-  echo "                Introduction to India"
-  echo "****************************************************"
-  echo "India is a vast country located in South Asia."
-  echo "Area: 3,287,263 square kilometers."
-  echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
-  echo "Capital: New Delhi."
-  echo "Largest City: Mumbai."
-  echo "****************************************************"
+  while true; do
+    echo "****************************************************"
+    echo "                Introduction to India"
+    echo "****************************************************"
+    echo "India is a vast country located in South Asia."
+    echo "Area: 3,287,263 square kilometers."
+    echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
+    echo "Capital: New Delhi."
+    echo "Largest City: Mumbai."
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
 }
 
 # Function to display rivers of India
 rivers_of_india() {
-  echo "****************************************************"
-  echo "                  Rivers of India"
-  echo "****************************************************"
-  echo "1. Ganga: Sacred river, flows through northern India."
-  echo "2. Yamuna: Tributary of the Ganga, flows through Delhi."
-  echo "3. Brahmaputra: Major river in northeast India."
-  echo "4. Godavari: Longest river in southern India."
-  echo "5. Narmada: Flows westwards into the Arabian Sea."
-  echo "6. Krishna and Kaveri: Key rivers in the south."
-  echo "****************************************************"
+  while true; do
+    echo "****************************************************"
+    echo "                  Rivers of India"
+    echo "****************************************************"
+    echo "1. Ganga: Sacred river, flows through northern India."
+    echo "2. Yamuna: Tributary of the Ganga, flows through Delhi."
+    echo "3. Brahmaputra: Major river in northeast India."
+    echo "4. Godavari: Longest river in southern India."
+    echo "5. Narmada: Flows westwards into the Arabian Sea."
+    echo "6. Krishna and Kaveri: Key rivers in the south."
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
 }
 
 # Function to display mountains of India
 mountains_of_india() {
-  echo "****************************************************"
-  echo "                Mountains of India"
-  echo "****************************************************"
-  echo "1. The Himalayas: Highest mountain range, includes Mount Everest and Kanchenjunga."
-  echo "2. Aravalli Range: Oldest mountain range in India."
-  echo "3. Western Ghats: UNESCO World Heritage Site, runs parallel to the western coast."
-  echo "4. Eastern Ghats: Runs along the eastern coast."
-  echo "5. Vindhya Range: Separates northern and southern India."
-  echo "****************************************************"
+  while true; do
+    echo "****************************************************"
+    echo "                Mountains of India"
+    echo "****************************************************"
+    echo "1. The Himalayas: Highest mountain range, includes Mount Everest and Kanchenjunga."
+    echo "2. Aravalli Range: Oldest mountain range in India."
+    echo "3. Western Ghats: UNESCO World Heritage Site, runs parallel to the western coast."
+    echo "4. Eastern Ghats: Runs along the eastern coast."
+    echo "5. Vindhya Range: Separates northern and southern India."
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
 }
 
 # Function to display volcanoes of India
 volcanoes_of_india() {
-  echo "****************************************************"
-  echo "                Volcanoes of India"
-  echo "****************************************************"
-  echo "1. Barren Island Volcano: Only active volcano in South Asia, located in the Andaman Islands."
-  echo "2. Narcondam Volcano: Dormant volcano in the Andaman Islands."
-  echo "3. Dhinodhar Hills: Extinct volcano in Gujarat."
-  echo "****************************************************"
+  while true; do
+    echo "****************************************************"
+    echo "                Volcanoes of India"
+    echo "****************************************************"
+    echo "1. Barren Island Volcano: Only active volcano in South Asia, located in the Andaman Islands."
+    echo "2. Narcondam Volcano: Dormant volcano in the Andaman Islands."
+    echo "3. Dhinodhar Hills: Extinct volcano in Gujarat."
+    echo "****************************************************"
+    echo "1. Back to Main Menu"
+    read -p "Enter your choice [1]: " choice
+    if [ "$choice" -eq 1 ]; then
+      return
+    else
+      echo "Invalid choice! Please try again."
+    fi
+  done
 }
 
 # Main Menu
