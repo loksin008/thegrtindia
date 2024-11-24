@@ -12,13 +12,9 @@ intro_india() {
     echo "Capital: New Delhi."
     echo "Largest City: Mumbai."
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -35,13 +31,9 @@ rivers_of_india() {
     echo "5. Narmada: Flows westwards into the Arabian Sea."
     echo "6. Krishna and Kaveri: Key rivers in the south."
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -57,13 +49,9 @@ mountains_of_india() {
     echo "4. Eastern Ghats: Runs along the eastern coast."
     echo "5. Vindhya Range: Separates northern and southern India."
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -77,13 +65,9 @@ volcanoes_of_india() {
     echo "2. Narcondam Volcano: Dormant volcano in the Andaman Islands."
     echo "3. Dhinodhar Hills: Extinct volcano in Gujarat."
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -109,13 +93,9 @@ prime_ministers_of_india() {
     echo "14. Manmohan Singh (2004–2014)"
     echo "15. Narendra Modi (2014–Present)"
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -136,13 +116,9 @@ home_ministers_of_india() {
     echo "9. Charan Singh (1979–1980)"
     echo "10. P. Chidambaram, Amit Shah (Multiple Terms)"
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -165,13 +141,9 @@ presidents_of_india() {
     echo "11. Ram Nath Kovind (2017–2022)"
     echo "12. Droupadi Murmu (2022–Present)"
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -192,13 +164,9 @@ national_symbols_of_india() {
     echo "9. National Currency: Indian Rupee (INR)."
     echo "10. National Emblem: The Lion Capital of Ashoka."
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -217,13 +185,9 @@ union_territories_of_india() {
     echo "7. Jammu and Kashmir (Union Territory since 2019)"
     echo "8. Ladakh (Union Territory since 2019)"
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -241,13 +205,9 @@ neighboring_countries_of_india() {
     echo "6. Myanmar (Burma): Located in the east, gateway to Southeast Asia."
     echo "7. Sri Lanka: Not directly connected by land but located south of India across the sea."
     echo "****************************************************"
-    echo "1. Back to Main Menu"
-    read -p "Enter your choice [1]: " choice
-    if [ "$choice" -eq 1 ]; then
-      return
-    else
-      echo "Invalid choice! Please try again."
-    fi
+    echo "Press Enter to go back."
+    read
+    return
   done
 }
 
@@ -266,13 +226,11 @@ while true; do
   echo "6. Home Ministers of India"
   echo "7. Presidents of India"
   echo "8. National Symbols of India"
-  echo "9. States and Capitals of India"
-  echo "10. Rivers and Dams of India"
-  echo "11. Union Territories of India"
-  echo "12. Neighboring Countries of India"
-  echo "13. Exit"
+  echo "9. Union Territories of India"
+  echo "10. Neighboring Countries of India"
+  echo "11. Exit"
   echo "****************************************************"
-  read -p "Enter your choice [1-13]: " choice
+  read -p "Enter your choice [1-11]: " choice
 
   case $choice in
     1) intro_india ;;
@@ -283,11 +241,9 @@ while true; do
     6) home_ministers_of_india ;;
     7) presidents_of_india ;;
     8) national_symbols_of_india ;;
-    9) states_and_capitals ;;
-    10) rivers_and_dams ;;
-    11) union_territories_of_india ;;
-    12) neighboring_countries_of_india ;;
-    13) echo "Exiting... Goodbye!" ; break ;;
+    9) union_territories_of_india ;;
+    10) neighboring_countries_of_india ;;
+    11) echo "Exiting... Goodbye!" ; break ;;
     *) echo "Invalid choice! Please select a valid option." ;;
   esac
 done
