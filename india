@@ -175,59 +175,45 @@ national_symbols_of_india() {
   done
 }
 
+# Function to display Tribes of India and their states
+tribes_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "                Tribes of India and Their States"
+    echo "****************************************************"
+    echo "1. Santhals - Jharkhand, Odisha, Bihar, West Bengal"
+    echo "2. Gonds - Madhya Pradesh, Maharashtra, Odisha"
+    echo "3. Bhils - Rajasthan, Gujarat, Madhya Pradesh"
+    echo "4. Meenas - Rajasthan"
+    echo "5. Nagas - Nagaland"
+    echo "6. Konyaks - Nagaland"
+    echo "7. Todas - Tamil Nadu"
+    echo "8. Bodos - Assam"
+    echo "9. Khasi - Meghalaya"
+    echo "10. Mishing - Assam"
+    echo "11. Warli - Maharashtra, Gujarat"
+    echo "12. Sikkimese Lepcha - Sikkim"
+    echo "13. Bakarwals - Jammu & Kashmir"
+    echo "14. Chakmas - Mizoram"
+    echo "****************************************************"
+    echo "Press Enter to go back."
+    read
+    return
+  done
+}
+
 # Function to display Union Territories of India
 union_territories_of_india() {
   while true; do
     echo "****************************************************"
-    echo "            Union Territories of India"
+    echo "                Union Territories of India"
     echo "****************************************************"
     echo "1. Andaman and Nicobar Islands"
     echo "2. Chandigarh"
     echo "3. Dadra and Nagar Haveli and Daman and Diu"
     echo "4. Lakshadweep"
-    echo "5. Delhi (National Capital Territory of Delhi)"
+    echo "5. Delhi"
     echo "6. Puducherry"
-    echo "7. Jammu and Kashmir (Union Territory since 2019)"
-    echo "8. Ladakh (Union Territory since 2019)"
-    echo "****************************************************"
-    echo "Press Enter to go back."
-    read
-    return
-  done
-}
-
-# Function to display neighboring countries of India
-neighboring_countries_of_india() {
-  while true; do
-    echo "****************************************************"
-    echo "            Neighboring Countries of India"
-    echo "****************************************************"
-    echo "1. Pakistan: Shares a border in the west, with historical ties and current conflicts."
-    echo "2. China: Northern neighbor, shares the Himalayan border and has trade relations."
-    echo "3. Nepal: Located in the north, known for Mount Everest and cultural ties."
-    echo "4. Bhutan: Small Himalayan kingdom in the northeast."
-    echo "5. Bangladesh: Bordering India in the east, sharing rivers and trade."
-    echo "6. Myanmar: Eastern border neighbor, shares historical and cultural exchanges."
-    echo "****************************************************"
-    echo "Press Enter to go back."
-    read
-    return
-  done
-}
-
-# Function to display Nuclear Power Plants in India and their locations
-nuclear_plants_of_india() {
-  while true; do
-    echo "****************************************************"
-    echo "            Nuclear Power Plants of India"
-    echo "****************************************************"
-    echo "1. Kudankulam Nuclear Power Plant (Tamil Nadu)"
-    echo "2. Tarapur Atomic Power Station (Maharashtra)"
-    echo "3. Narora Atomic Power Station (Uttar Pradesh)"
-    echo "4. Kaiga Nuclear Power Plant (Karnataka)"
-    echo "5. Rajasthan Atomic Power Station (Rajasthan)"
-    echo "6. Kakrapar Atomic Power Station (Gujarat)"
-    echo "7. Prototype Fast Breeder Reactor (Tamil Nadu)"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -251,11 +237,10 @@ while true; do
   echo "7. Presidents of India"
   echo "8. National Symbols of India"
   echo "9. Union Territories of India"
-  echo "10. Neighboring Countries of India"
-  echo "11. Nuclear Power Plants of India"
-  echo "12. Exit"
+  echo "10. Tribes of India"
+  echo "11. Exit"
   echo "****************************************************"
-  read -p "Enter your choice [1-12]: " choice
+  read -p "Enter your choice [1-11]: " choice
 
   case $choice in
     1) intro_india ;;
@@ -267,9 +252,8 @@ while true; do
     7) presidents_of_india ;;
     8) national_symbols_of_india ;;
     9) union_territories_of_india ;;
-    10) neighboring_countries_of_india ;;
-    11) nuclear_plants_of_india ;;
-    12) echo "Exiting... Goodbye!" ; break ;;
+    10) tribes_of_india ;;
+    11) echo "Exiting... Goodbye!" ; break ;;
     *) echo "Invalid choice! Please select a valid option." ;;
   esac
 done
