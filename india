@@ -35,16 +35,17 @@ handle_choice() {
       ;;
     2)
       echo "States and Capitals of India:"
-      echo "India consists of 28 states and 8 Union Territories."
-      echo "Here are some of the states and their capitals:"
+      echo "India consists of 28 states and 8 Union Territories. Here is a list of all states and their capitals:"
       echo "Andhra Pradesh - Amaravati"
       echo "Arunachal Pradesh - Itanagar"
       echo "Assam - Dispur"
       echo "Bihar - Patna"
+      echo "Chhattisgarh - Raipur"
       echo "Goa - Panaji"
       echo "Gujarat - Gandhinagar"
       echo "Haryana - Chandigarh"
       echo "Himachal Pradesh - Shimla"
+      echo "Jharkhand - Ranchi"
       echo "Karnataka - Bengaluru"
       echo "Kerala - Thiruvananthapuram"
       echo "Madhya Pradesh - Bhopal"
@@ -62,6 +63,15 @@ handle_choice() {
       echo "Uttar Pradesh - Lucknow"
       echo "Uttarakhand - Dehradun"
       echo "West Bengal - Kolkata"
+      echo "Union Territories:"
+      echo "Andaman and Nicobar Islands - Port Blair"
+      echo "Chandigarh - Chandigarh"
+      echo "Dadra and Nagar Haveli and Daman and Diu - Daman"
+      echo "Lakshadweep - Kavaratti"
+      echo "Delhi - New Delhi (National Capital Territory)"
+      echo "Puducherry - Puducherry"
+      echo "Ladakh - Leh"
+      echo "Lakshadweep - Kavaratti"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
@@ -166,16 +176,17 @@ handle_choice() {
     11)
       echo "Oceans of India:"
       echo "India is surrounded by the following oceans:"
-      echo "1. Indian Ocean - The third-largest ocean, bordering the southern coast of India."
+      echo "1. Indian Ocean"
+      echo "2. Arabian Sea"
+      echo "3. Bay of Bengal"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     12)
       echo "Seas of India:"
-      echo "India has three major seas surrounding its coast:"
-      echo "1. Arabian Sea - To the west of India."
-      echo "2. Bay of Bengal - To the east of India."
-      echo "3. Andaman Sea - Around the Andaman Islands."
+      echo "The seas around India include:"
+      echo "1. Andaman Sea - Surrounding the Andaman Islands."
+      echo "2. Laccadive Sea - Located around the Lakshadweep Islands."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
