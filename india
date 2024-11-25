@@ -19,6 +19,7 @@ display_menu() {
   echo "12. Seas of India"
   echo "13. Exit"
   echo "--------------------------------------------------"
+  echo "Press 'b' to go back to the main menu."
 }
 
 handle_choice() {
@@ -105,7 +106,7 @@ handle_choice() {
       echo "Narmada"
       echo "Kaveri"
       echo "Sutlej"
-      echo "Mahanadi"
+      "Mahanadi"
       ;;
     9)
       echo "Volcanoes of India:"
@@ -129,6 +130,9 @@ handle_choice() {
       echo "Thank you! Exiting the program."
       exit 0
       ;;
+    b|B)
+      return 1
+      ;;
     *)
       echo "Invalid choice! Please select a valid option."
       ;;
@@ -139,6 +143,11 @@ handle_choice() {
 while true; do
   display_menu
   read -p "Enter your choice: " choice
+
+  if [ "$choice" == "b" ] || [ "$choice" == "B" ]; then
+    continue
+  fi
+
   handle_choice $choice
   echo
 done
