@@ -18,7 +18,8 @@ display_menu() {
   echo "11. Oceans of India"
   echo "12. Seas of India"
   echo "13. Nuclear Reactors of India"
-  echo "14. Exit"
+  echo "14. Satellites of India"
+  echo "15. Exit"
   echo "--------------------------------------------------"
 }
 
@@ -170,7 +171,7 @@ handle_choice() {
       echo "Islands of India:"
       echo "India has two main island groups:"
       echo "1. Andaman and Nicobar Islands - Located in the Bay of Bengal, known for their biodiversity."
-      echo "2. Lakshadweep Islands - Located in the Arabian Sea, known for their coral reefs."
+      echo "2. Lakshadweep Islands - Located in the Arabian Sea, known for their beautiful coral reefs."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
@@ -206,6 +207,20 @@ handle_choice() {
       read -n 1
       ;;
     14)
+      echo "Satellites of India:"
+      echo "India has a robust space program, managed by the Indian Space Research Organisation (ISRO), and has launched numerous satellites."
+      echo "Some notable satellites include:"
+      echo "1. Aryabhata (1975) - First Indian satellite."
+      echo "2. INSAT Series - A series of multipurpose geostationary satellites."
+      echo "3. GSAT Series - Communication satellites for various purposes."
+      echo "4. Cartosat Series - Earth observation satellites."
+      echo "5. NavIC - Indian Regional Navigation Satellite System."
+      echo "6. Chandrayaan-1 and 2 - Lunar missions."
+      echo "7. Mangalyaan (Mars Orbiter Mission) - India's first interplanetary mission."
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    15)
       echo "Thank you! Exiting the program."
       exit 0
       ;;
