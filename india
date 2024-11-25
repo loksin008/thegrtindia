@@ -19,7 +19,6 @@ display_menu() {
   echo "12. Seas of India"
   echo "13. Exit"
   echo "--------------------------------------------------"
-  echo "Press 'b' to go back to the main menu."
 }
 
 handle_choice() {
@@ -29,6 +28,8 @@ handle_choice() {
       echo "India, officially the Republic of India, is a country in South Asia."
       echo "It is the seventh-largest country by land area, and the second-most populous country."
       echo "Its capital is New Delhi, and the largest city is Mumbai."
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     2)
       echo "States and Capitals of India:"
@@ -58,11 +59,15 @@ handle_choice() {
       echo "Uttar Pradesh - Lucknow"
       echo "Uttarakhand - Dehradun"
       echo "West Bengal - Kolkata"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     3)
       echo "National Symbol of India:"
       echo "The national symbol of India is the Lion Capital of Ashoka."
       echo "It features four lions standing back-to-back, symbolizing power, courage, pride, and confidence."
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     4)
       echo "Presidents of India:"
@@ -71,7 +76,8 @@ handle_choice() {
       echo "Dr. Zakir Husain (3rd President)"
       echo "Fakhruddin Ali Ahmed (5th President)"
       echo "Ram Nath Kovind (14th President)"
-      # Add more Presidents as needed
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     5)
       echo "Prime Ministers of India:"
@@ -80,7 +86,8 @@ handle_choice() {
       echo "Indira Gandhi (1st Female Prime Minister)"
       echo "Rajiv Gandhi (6th Prime Minister)"
       echo "Narendra Modi (14th Prime Minister)"
-      # Add more Prime Ministers as needed
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     6)
       echo "Home Ministers of India:"
@@ -88,6 +95,8 @@ handle_choice() {
       echo "Indira Gandhi (2nd Home Minister)"
       echo "Lal Krishna Advani (Home Minister during 1998-2004)"
       echo "Rajnath Singh (Current Home Minister)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     7)
       echo "Mountains of India:"
@@ -96,6 +105,8 @@ handle_choice() {
       echo "Vindhya Range"
       echo "Sahyadri (Western Ghats)"
       echo "Nilgiri Hills"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     8)
       echo "Rivers of India:"
@@ -106,32 +117,39 @@ handle_choice() {
       echo "Narmada"
       echo "Kaveri"
       echo "Sutlej"
-      "Mahanadi"
+      echo "Mahanadi"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     9)
       echo "Volcanoes of India:"
       echo "Barren Island (Active Volcano in Andaman and Nicobar Islands)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     10)
       echo "Islands of India:"
       echo "Andaman and Nicobar Islands"
       echo "Lakshadweep Islands"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     11)
       echo "Oceans of India:"
       echo "Indian Ocean"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     12)
       echo "Seas of India:"
       echo "Arabian Sea"
       echo "Bay of Bengal"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
       ;;
     13)
       echo "Thank you! Exiting the program."
       exit 0
-      ;;
-    b|B)
-      return 1
       ;;
     *)
       echo "Invalid choice! Please select a valid option."
@@ -143,11 +161,6 @@ handle_choice() {
 while true; do
   display_menu
   read -p "Enter your choice: " choice
-
-  if [ "$choice" == "b" ] || [ "$choice" == "B" ]; then
-    continue
-  fi
-
   handle_choice $choice
   echo
 done
