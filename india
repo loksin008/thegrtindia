@@ -17,7 +17,8 @@ display_menu() {
   echo "10. Islands of India"
   echo "11. Oceans of India"
   echo "12. Seas of India"
-  echo "13. Exit"
+  echo "13. Nuclear Reactors of India"
+  echo "14. Exit"
   echo "--------------------------------------------------"
 }
 
@@ -87,7 +88,7 @@ handle_choice() {
     4)
       echo "Presidents of India:"
       echo "India's first President was Dr. Rajendra Prasad, who served from 1950 to 1962."
-      echo "The list of Presidents of India includes:"
+      echo "The list of Presidents includes:"
       echo "1st - Dr. Rajendra Prasad"
       echo "2nd - Dr. Sarvepalli Radhakrishnan"
       echo "3rd - Dr. Zakir Husain"
@@ -191,6 +192,20 @@ handle_choice() {
       read -n 1
       ;;
     13)
+      echo "Nuclear Reactors of India:"
+      echo "India has a number of nuclear reactors, both operational and under construction, which contribute to the country's energy needs."
+      echo "Here are the major nuclear reactors in India:"
+      echo "1. Tarapur Atomic Power Station (TAPS) - Located in Maharashtra."
+      echo "2. Kudankulam Nuclear Power Plant (KKNPP) - Located in Tamil Nadu."
+      echo "3. Kakrapar Atomic Power Station (KAPS) - Located in Gujarat."
+      echo "4. Rajasthan Atomic Power Station (RAPS) - Located in Rajasthan."
+      echo "5. Narora Atomic Power Station (NAPS) - Located in Uttar Pradesh."
+      echo "6. Kaiga Nuclear Power Plant - Located in Karnataka."
+      echo "7. Prototype Fast Breeder Reactor (PFBR) - Located in Kalpakkam, Tamil Nadu."
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    14)
       echo "Thank you! Exiting the program."
       exit 0
       ;;
