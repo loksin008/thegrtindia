@@ -4,9 +4,6 @@
 RESET="\e[0m"
 RED="\e[31m"
 GREEN="\e[32m"
-YELLOW="\e[33m"
-BLUE="\e[34m"
-MAGENTA="\e[35m"
 CYAN="\e[36m"
 
 # Function to display the menu
@@ -32,75 +29,132 @@ display_menu() {
   echo "--------------------------------------------------"
 }
 
-# Function to handle each menu choice
+# Function to handle menu choice
 handle_choice() {
   case $1 in
     1)
       echo -e "${GREEN}Introduction of India:${RESET}"
-      echo "India, officially the Republic of India, is a country in South Asia."
-      echo "It is the seventh-largest country by land area, and the second-most populous country, with over 1.4 billion people."
-      echo "India shares borders with Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar, and has a coastline along the Indian Ocean."
-      echo "The country has a rich cultural heritage and diverse traditions, languages, and religions. It is home to some of the world's oldest civilizations, including the Indus Valley Civilization."
-      echo "India gained independence from British rule on August 15, 1947."
+      echo "India, officially the Republic of India, is a South Asian country with a population exceeding 1.4 billion."
+      echo "Known for its diversity, India has a rich cultural heritage and vibrant history."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     2)
-      echo -e "${BLUE}States and Capitals of India:${RESET}"
-      echo "India consists of 28 states and 8 Union Territories. Here is a list of all states and their capitals:"
-      echo "Andhra Pradesh - Amaravati"
-      echo "Arunachal Pradesh - Itanagar"
-      echo "Assam - Dispur"
-      echo "Bihar - Patna"
-      echo "Chhattisgarh - Raipur"
-      echo "Goa - Panaji"
-      echo "Gujarat - Gandhinagar"
-      echo "Haryana - Chandigarh"
-      echo "Himachal Pradesh - Shimla"
-      echo "Jharkhand - Ranchi"
-      echo "Karnataka - Bengaluru"
-      echo "Kerala - Thiruvananthapuram"
-      echo "Madhya Pradesh - Bhopal"
-      echo "Maharashtra - Mumbai"
-      echo "Manipur - Imphal"
-      echo "Meghalaya - Shillong"
-      echo "Mizoram - Aizawl"
-      echo "Nagaland - Kohima"
-      echo "Odisha - Bhubaneswar"
-      echo "Punjab - Chandigarh"
-      echo "Rajasthan - Jaipur"
-      echo "Sikkim - Gangtok"
-      echo "Tamil Nadu - Chennai"
-      echo "Telangana - Hyderabad"
-      echo "Uttar Pradesh - Lucknow"
-      echo "Uttarakhand - Dehradun"
-      echo "West Bengal - Kolkata"
-      echo "Union Territories:"
-      echo "Andaman and Nicobar Islands - Port Blair"
-      echo "Chandigarh - Chandigarh"
-      echo "Dadra and Nagar Haveli and Daman and Diu - Daman"
-      echo "Lakshadweep - Kavaratti"
-      echo "Delhi - New Delhi (National Capital Territory)"
-      echo "Puducherry - Puducherry"
-      echo "Ladakh - Leh"
+      echo -e "${CYAN}States and Capitals of India:${RESET}"
+      echo "India has 28 states and 8 Union Territories. Examples:"
+      echo "Andhra Pradesh - Amaravati, Bihar - Patna, Karnataka - Bengaluru."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
-    # Similar content for options 3-15 with different color codes as per the earlier explanation
+    3)
+      echo -e "${GREEN}National Symbol of India:${RESET}"
+      echo "The national emblem is the Lion Capital of Ashoka, symbolizing power and courage."
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    4)
+      echo -e "${CYAN}Presidents of India:${RESET}"
+      echo "1. Dr. Rajendra Prasad (First President)"
+      echo "2. Dr. Sarvepalli Radhakrishnan"
+      echo "3. Pratibha Patil (First Female President)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    5)
+      echo -e "${GREEN}Prime Ministers of India:${RESET}"
+      echo "1. Jawaharlal Nehru (First Prime Minister)"
+      echo "2. Indira Gandhi (First Female Prime Minister)"
+      echo "3. Narendra Modi (Current Prime Minister)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    6)
+      echo -e "${CYAN}Home Ministers of India:${RESET}"
+      echo "1. Sardar Vallabhbhai Patel (First Home Minister)"
+      echo "2. Amit Shah (Current Home Minister)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    7)
+      echo -e "${GREEN}Mountains of India:${RESET}"
+      echo "1. Kanchenjunga (Highest peak in India)"
+      echo "2. Aravalli (Oldest mountain range)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    8)
+      echo -e "${CYAN}Rivers of India:${RESET}"
+      echo "1. Ganga (Longest and holiest river)"
+      echo "2. Yamuna (Major tributary of Ganga)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    9)
+      echo -e "${GREEN}Volcanoes of India:${RESET}"
+      echo "1. Barren Island (Active volcano in Andaman and Nicobar)"
+      echo "2. Narcondam (Dormant volcano)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    10)
+      echo -e "${CYAN}Islands of India:${RESET}"
+      echo "1. Andaman and Nicobar Islands"
+      echo "2. Lakshadweep Islands"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    11)
+      echo -e "${GREEN}Oceans of India:${RESET}"
+      echo "1. Indian Ocean"
+      echo "2. Arabian Sea"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    12)
+      echo -e "${CYAN}Seas of India:${RESET}"
+      echo "1. Andaman Sea"
+      echo "2. Laccadive Sea"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    13)
+      echo -e "${GREEN}Nuclear Reactors of India:${RESET}"
+      echo "1. Tarapur Atomic Power Station"
+      echo "2. Kudankulam Nuclear Power Plant"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    14)
+      echo -e "${CYAN}Satellites of India:${RESET}"
+      echo "1. Aryabhata (First Indian satellite)"
+      echo "2. Mangalyaan (Mars Orbiter Mission)"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
+    15)
+      echo -e "${GREEN}Seasons of India:${RESET}"
+      echo "1. Summer"
+      echo "2. Monsoon"
+      echo "3. Winter"
+      echo "Press any key to go back to the main menu..."
+      read -n 1
+      ;;
     16)
       echo -e "${RED}Thank you! Exiting the program.${RESET}"
       exit 0
       ;;
     *)
-      echo -e "${RED}Invalid choice! Please select a valid option.${RESET}"
+      echo -e "${RED}Invalid option chosen! Please select a valid option.${RESET}"
+      sleep 1  # Adds a slight delay before returning to the menu
       ;;
   esac
 }
 
-# Main script logic
+# Main script loop
 while true; do
   display_menu
   read -p "Enter your choice: " choice
   handle_choice $choice
   echo
 done
+
