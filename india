@@ -199,22 +199,6 @@ rivers_and_dams() {
   done
 }
 
-# Function for Emperors who ruled India
-emperors_of_india() {
-  while true; do
-    echo "****************************************************"
-    echo "         Emperors who Ruled Over India"
-    echo "****************************************************"
-    echo "1. Chandragupta Maurya (Maurya Empire)"
-    echo "2. Akbar the Great (Mughal Empire)"
-    echo "3. Shivaji Maharaj (Maratha Empire)"
-    echo "****************************************************"
-    echo "Press Enter to go back."
-    read
-    return
-  done
-}
-
 # Main Menu
 while true; do
   echo ""
@@ -234,10 +218,9 @@ while true; do
   echo "10. Tribes of India"
   echo "11. Nuclear Plants of India"
   echo "12. Rivers and Dams in India"
-  echo "13. Emperors who Ruled Over India"
-  echo "14. Exit"
+  echo "13. Exit"
   echo "****************************************************"
-  read -p "Enter your choice [1-14]: " choice
+  read -p "Enter your choice [1-13]: " choice
 
   case $choice in
     1) intro_india ;;
@@ -252,8 +235,7 @@ while true; do
     10) tribes_of_india ;;
     11) nuclear_plants_of_india ;;
     12) rivers_and_dams ;;
-    13) emperors_of_india ;;
-    14) echo "Exiting... Goodbye!" ; break ;;
+    13) echo "Exiting... Goodbye!" ; break ;;
     *) echo "Invalid choice! Please select a valid option." ;;
   esac
 done
