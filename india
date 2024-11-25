@@ -34,108 +34,180 @@ handle_choice() {
   case $1 in
     1)
       echo -e "${GREEN}Introduction of India:${RESET}"
-      echo "India, officially the Republic of India, is a South Asian country with a population exceeding 1.4 billion."
-      echo "Known for its diversity, India has a rich cultural heritage and vibrant history."
+      echo "India, officially the Republic of India, is a country located in South Asia. It is the seventh-largest country by land area and the second-most populous country in the world, with over 1.4 billion people."
+      echo "India shares borders with Pakistan, China, Nepal, Bhutan, Bangladesh, Myanmar, and has a long coastline along the Indian Ocean."
+      echo "The country has a rich cultural heritage and diverse traditions, languages, and religions. India is home to the Indus Valley Civilization, one of the world's oldest urban cultures."
+      echo "India gained independence from British rule on August 15, 1947, and became a republic on January 26, 1950."
+      echo "The country's political structure is a federal parliamentary democratic republic, and it has 28 states and 8 Union Territories."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     2)
       echo -e "${CYAN}States and Capitals of India:${RESET}"
-      echo "India has 28 states and 8 Union Territories. Examples:"
-      echo "Andhra Pradesh - Amaravati, Bihar - Patna, Karnataka - Bengaluru."
+      echo "India consists of 28 states and 8 Union Territories. Here is a comprehensive list:"
+      echo "1. Andhra Pradesh - Amaravati"
+      echo "2. Arunachal Pradesh - Itanagar"
+      echo "3. Assam - Dispur"
+      echo "4. Bihar - Patna"
+      echo "5. Chhattisgarh - Raipur"
+      echo "6. Goa - Panaji"
+      echo "7. Gujarat - Gandhinagar"
+      echo "8. Haryana - Chandigarh"
+      echo "9. Himachal Pradesh - Shimla"
+      echo "10. Jharkhand - Ranchi"
+      echo "11. Karnataka - Bengaluru"
+      echo "12. Kerala - Thiruvananthapuram"
+      echo "13. Madhya Pradesh - Bhopal"
+      echo "14. Maharashtra - Mumbai"
+      echo "15. Manipur - Imphal"
+      echo "16. Meghalaya - Shillong"
+      echo "17. Mizoram - Aizawl"
+      echo "18. Nagaland - Kohima"
+      echo "19. Odisha - Bhubaneswar"
+      echo "20. Punjab - Chandigarh"
+      echo "21. Rajasthan - Jaipur"
+      echo "22. Sikkim - Gangtok"
+      echo "23. Tamil Nadu - Chennai"
+      echo "24. Telangana - Hyderabad"
+      echo "25. Uttar Pradesh - Lucknow"
+      echo "26. Uttarakhand - Dehradun"
+      echo "27. West Bengal - Kolkata"
+      echo "Union Territories:"
+      echo "1. Andaman and Nicobar Islands - Port Blair"
+      echo "2. Chandigarh - Chandigarh"
+      echo "3. Dadra and Nagar Haveli and Daman and Diu - Daman"
+      echo "4. Lakshadweep - Kavaratti"
+      echo "5. Delhi - New Delhi (National Capital Territory)"
+      echo "6. Puducherry - Puducherry"
+      echo "7. Ladakh - Leh"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     3)
       echo -e "${GREEN}National Symbol of India:${RESET}"
-      echo "The national emblem is the Lion Capital of Ashoka, symbolizing power and courage."
+      echo "The national symbol of India is the Lion Capital of Ashoka, adopted on January 26, 1950."
+      echo "The emblem is based on the Lion Capital of Ashoka, a sculpture from the Maurya dynasty, dating back to 250 BCE. It features four lions standing back-to-back, symbolizing power, courage, pride, and confidence."
+      echo "The motto 'Satyamev Jayate' (Truth Alone Triumphs) is inscribed below the lions, originating from the ancient scriptures, the Mundaka Upanishad."
+      echo "The Lion Capital is used as the official emblem of India and appears on all Indian currency notes and government documents."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     4)
       echo -e "${CYAN}Presidents of India:${RESET}"
-      echo "1. Dr. Rajendra Prasad (First President)"
-      echo "2. Dr. Sarvepalli Radhakrishnan"
-      echo "3. Pratibha Patil (First Female President)"
+      echo "India has had 15 presidents, with the first being Dr. Rajendra Prasad. The list includes influential leaders such as:"
+      echo "1. Dr. Rajendra Prasad (First President, 1950–1962)"
+      echo "2. Dr. Sarvepalli Radhakrishnan (Second President, 1962–1967)"
+      echo "3. Dr. Zakir Husain (Third President, 1967–1969, First Muslim President)"
+      echo "4. Fakhruddin Ali Ahmed (Fifth President, 1974–1977)"
+      echo "5. Pranab Mukherjee (13th President, 2012–2017)"
+      echo "6. Ram Nath Kovind (14th President, 2017–Present)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     5)
       echo -e "${GREEN}Prime Ministers of India:${RESET}"
-      echo "1. Jawaharlal Nehru (First Prime Minister)"
-      echo "2. Indira Gandhi (First Female Prime Minister)"
-      echo "3. Narendra Modi (Current Prime Minister)"
+      echo "India's first Prime Minister was Jawaharlal Nehru, and the current Prime Minister is Narendra Modi."
+      echo "Notable Prime Ministers include:"
+      echo "1. Jawaharlal Nehru (First Prime Minister, 1947–1964)"
+      echo "2. Indira Gandhi (First Female Prime Minister, 1966–1977, 1980–1984)"
+      echo "3. Atal Bihari Vajpayee (Prime Minister, 1998–2004)"
+      echo "4. Manmohan Singh (Prime Minister, 2004–2014)"
+      echo "5. Narendra Modi (Current Prime Minister, 2014–Present)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     6)
       echo -e "${CYAN}Home Ministers of India:${RESET}"
-      echo "1. Sardar Vallabhbhai Patel (First Home Minister)"
-      echo "2. Amit Shah (Current Home Minister)"
+      echo "The Home Minister of India is responsible for overseeing internal security, law enforcement, and border security."
+      echo "Notable Home Ministers include:"
+      echo "1. Sardar Vallabhbhai Patel (First Home Minister, 1947–1950)"
+      echo "2. Indira Gandhi (Home Minister, 1967–1970)"
+      echo "3. Rajnath Singh (Current Home Minister, 2019–Present)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     7)
       echo -e "${GREEN}Mountains of India:${RESET}"
-      echo "1. Kanchenjunga (Highest peak in India)"
-      echo "2. Aravalli (Oldest mountain range)"
+      echo "India has some of the most significant mountain ranges in the world, including the Himalayas, which houses the highest peaks."
+      echo "Prominent mountains include:"
+      echo "1. Mount Kanchenjunga (8,586 meters) - The highest peak in India, located in the Himalayas on the India-Nepal border."
+      echo "2. Nanda Devi (7,816 meters) - The second-highest peak in India, situated in Uttarakhand."
+      echo "3. Mount Everest (8,848 meters) - The world's highest peak, located in Nepal, but part of the larger Himalayan range."
+      echo "4. Aravalli Range (Oldest mountain range) - Stretching from Rajasthan to Haryana, it's one of the oldest mountain ranges in the world."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     8)
       echo -e "${CYAN}Rivers of India:${RESET}"
-      echo "1. Ganga (Longest and holiest river)"
-      echo "2. Yamuna (Major tributary of Ganga)"
+      echo "India's rivers are crucial to its culture, agriculture, and economy."
+      echo "Major rivers include:"
+      echo "1. Ganges (2,525 kilometers) - The most important river in India, flowing from the Himalayas to the Bay of Bengal."
+      echo "2. Yamuna (1,376 kilometers) - The largest tributary of the Ganges, flowing through states like Uttarakhand, Haryana, and Uttar Pradesh."
+      echo "3. Brahmaputra (2,900 kilometers) - Flowing from Tibet to India, it's one of the longest rivers in the world."
+      echo "4. Godavari (1,465 kilometers) - The second-longest river in India, flowing from the Western Ghats to the east coast."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     9)
       echo -e "${GREEN}Volcanoes of India:${RESET}"
-      echo "1. Barren Island (Active volcano in Andaman and Nicobar)"
-      echo "2. Narcondam (Dormant volcano)"
+      echo "India has a few volcanoes, mostly in the Andaman and Nicobar Islands."
+      echo "Key volcanoes include:"
+      echo "1. Barren Island (Active volcano) - Located in the Andaman Sea, it's the only active volcano in India."
+      echo "2. Narcondam (Dormant volcano) - Also located in the Andaman Islands."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     10)
       echo -e "${CYAN}Islands of India:${RESET}"
-      echo "1. Andaman and Nicobar Islands"
-      echo "2. Lakshadweep Islands"
+      echo "India is home to many islands in the Bay of Bengal and Arabian Sea."
+      echo "Prominent islands include:"
+      echo "1. Andaman and Nicobar Islands - A group of islands in the Bay of Bengal, known for their unique biodiversity."
+      echo "2. Lakshadweep Islands - Located in the Arabian Sea, this is India's smallest Union Territory."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     11)
       echo -e "${GREEN}Oceans of India:${RESET}"
-      echo "1. Indian Ocean"
-      echo "2. Arabian Sea"
+      echo "India is surrounded by three major oceans:"
+      echo "1. Indian Ocean - The third-largest ocean in the world, which borders India's southern coast."
+      echo "2. Arabian Sea - Located to the west of India, it is a part of the larger Indian Ocean."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     12)
       echo -e "${CYAN}Seas of India:${RESET}"
-      echo "1. Andaman Sea"
-      echo "2. Laccadive Sea"
+      echo "India's seas are vital for trade and commerce."
+      echo "The prominent seas include:"
+      echo "1. Andaman Sea - Located to the southeast of India, it is part of the Bay of Bengal."
+      echo "2. Laccadive Sea - Surrounding the Lakshadweep Islands."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     13)
       echo -e "${GREEN}Nuclear Reactors of India:${RESET}"
-      echo "1. Tarapur Atomic Power Station"
-      echo "2. Kudankulam Nuclear Power Plant"
+      echo "India operates several nuclear reactors as part of its energy program."
+      echo "Key reactors include:"
+      echo "1. Tarapur Atomic Power Station - Located in Maharashtra, it was the first nuclear power plant in India."
+      echo "2. Kudankulam Nuclear Power Plant - Located in Tamil Nadu, it's the largest nuclear power station in India."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     14)
       echo -e "${CYAN}Satellites of India:${RESET}"
-      echo "1. Aryabhata (First Indian satellite)"
-      echo "2. Mangalyaan (Mars Orbiter Mission)"
+      echo "India has made remarkable achievements in space technology."
+      echo "Important satellites include:"
+      echo "1. Aryabhata (1975) - India's first satellite."
+      echo "2. Mangalyaan (Mars Orbiter Mission) - India's first mission to Mars."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     15)
       echo -e "${GREEN}Seasons of India:${RESET}"
-      echo "1. Summer"
-      echo "2. Monsoon"
-      echo "3. Winter"
+      echo "India experiences four main seasons:"
+      echo "1. Summer (March–June) - Characterized by high temperatures, especially in the northern and central regions."
+      echo "2. Monsoon (June–September) - The southwest monsoon brings heavy rainfall, crucial for agriculture."
+      echo "3. Winter (December–February) - Cold temperatures in the north and pleasant conditions in the south."
+      echo "4. Autumn (October–November) - The transition period after monsoon, with cooler and dry weather."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
@@ -145,7 +217,7 @@ handle_choice() {
       ;;
     *)
       echo -e "${RED}Invalid option chosen! Please select a valid option.${RESET}"
-      sleep 1  # Adds a slight delay before returning to the menu
+      sleep 1
       ;;
   esac
 }
@@ -157,4 +229,3 @@ while true; do
   handle_choice $choice
   echo
 done
-
