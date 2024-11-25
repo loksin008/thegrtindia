@@ -1,87 +1,136 @@
 #!/bin/bash
 
-# Script for comprehensive information about India in Hindi
+# Script for comprehensive information about India in English
 
 display_menu() {
-  echo "भारत का परिचय प्राप्त करने के लिए विकल्प चुनें:"
-  echo "----------------------------------------------------"
-  echo "1. भारत का परिचय"
-  echo "2. भारत के राष्ट्रीय दिवस"
-  echo "3. भारत का भौतिक स्वरूप"
-  echo "4. भारत के राष्ट्रपति"
-  echo "5. भारत के प्रधानमंत्री"
-  echo "6. भारत के गृहमंत्री"
-  echo "7. भारत की नदियाँ"
-  echo "8. भारत के पर्वत"
-  echo "9. भारत के ज्वालामुखी"
-  echo "10. भारत के द्वीप"
-  echo "11. भारत के समुद्र और महासागर"
-  echo "12. भारत के राज्य और उनकी राजधानी"
-  echo "13. बाहर निकलें"
-  echo "----------------------------------------------------"
+  echo "Choose an option to get information about India:"
+  echo "--------------------------------------------------"
+  echo "1. Introduction of India"
+  echo "2. State and Capital of India"
+  echo "3. National Symbol of India"
+  echo "4. Presidents of India"
+  echo "5. Prime Ministers of India"
+  echo "6. Home Ministers of India"
+  echo "7. Mountains of India"
+  echo "8. Rivers of India"
+  echo "9. Volcanoes of India"
+  echo "10. Islands of India"
+  echo "11. Oceans of India"
+  echo "12. Seas of India"
+  echo "13. Exit"
+  echo "--------------------------------------------------"
 }
 
 handle_choice() {
   case $1 in
     1)
-      echo "भारत का परिचय:"
-      echo "भारत दक्षिण एशिया का एक विशाल और विविधतापूर्ण देश है। यह ऐतिहासिक धरोहर, संस्कृति और विविधता का प्रतीक है।"
+      echo "Introduction of India:"
+      echo "India, officially the Republic of India, is a country in South Asia."
+      echo "It is the seventh-largest country by land area, and the second-most populous country."
+      echo "Its capital is New Delhi, and the largest city is Mumbai."
       ;;
     2)
-      echo "भारत के राष्ट्रीय दिवस:"
-      echo "गणतंत्र दिवस - 26 जनवरी"
-      echo "स्वतंत्रता दिवस - 15 अगस्त"
-      echo "गांधी जयंती - 2 अक्टूबर"
+      echo "States and Capitals of India:"
+      echo "Andhra Pradesh - Amaravati"
+      echo "Arunachal Pradesh - Itanagar"
+      echo "Assam - Dispur"
+      echo "Bihar - Patna"
+      echo "Goa - Panaji"
+      echo "Gujarat - Gandhinagar"
+      echo "Haryana - Chandigarh"
+      echo "Himachal Pradesh - Shimla"
+      echo "Karnataka - Bengaluru"
+      echo "Kerala - Thiruvananthapuram"
+      echo "Madhya Pradesh - Bhopal"
+      echo "Maharashtra - Mumbai"
+      echo "Manipur - Imphal"
+      echo "Meghalaya - Shillong"
+      echo "Mizoram - Aizawl"
+      echo "Nagaland - Kohima"
+      echo "Odisha - Bhubaneswar"
+      echo "Punjab - Chandigarh"
+      echo "Rajasthan - Jaipur"
+      echo "Sikkim - Gangtok"
+      echo "Tamil Nadu - Chennai"
+      echo "Telangana - Hyderabad"
+      echo "Tripura - Agartala"
+      echo "Uttar Pradesh - Lucknow"
+      echo "Uttarakhand - Dehradun"
+      echo "West Bengal - Kolkata"
       ;;
     3)
-      echo "भारत का भौतिक स्वरूप:"
-      echo "भारत का भौतिक स्वरूप पहाड़ों, मैदानों, रेगिस्तानों, तटीय क्षेत्रों और पठारों से मिलकर बना है।"
+      echo "National Symbol of India:"
+      echo "The national symbol of India is the Lion Capital of Ashoka."
+      echo "It features four lions standing back-to-back, symbolizing power, courage, pride, and confidence."
       ;;
     4)
-      echo "भारत के राष्ट्रपति:"
-      echo "डॉ. राजेंद्र प्रसाद (प्रथम राष्ट्रपति) से लेकर वर्तमान राष्ट्रपति का नाम यहाँ अपडेट करें।"
+      echo "Presidents of India:"
+      echo "Dr. Rajendra Prasad (1st President)"
+      echo "Dr. Sarvepalli Radhakrishnan (2nd President)"
+      echo "Dr. Zakir Husain (3rd President)"
+      echo "Fakhruddin Ali Ahmed (5th President)"
+      echo "Ram Nath Kovind (14th President)"
+      # Add more Presidents as needed
       ;;
     5)
-      echo "भारत के प्रधानमंत्री:"
-      echo "पंडित जवाहरलाल नेहरू (प्रथम प्रधानमंत्री) से लेकर वर्तमान प्रधानमंत्री का नाम यहाँ अपडेट करें।"
+      echo "Prime Ministers of India:"
+      echo "Jawaharlal Nehru (1st Prime Minister)"
+      echo "Gulzarilal Nanda (Acting Prime Minister)"
+      echo "Indira Gandhi (1st Female Prime Minister)"
+      echo "Rajiv Gandhi (6th Prime Minister)"
+      echo "Narendra Modi (14th Prime Minister)"
+      # Add more Prime Ministers as needed
       ;;
     6)
-      echo "भारत के गृहमंत्री:"
-      echo "सरदार वल्लभभाई पटेल (प्रथम गृहमंत्री) से लेकर वर्तमान गृहमंत्री का नाम यहाँ अपडेट करें।"
+      echo "Home Ministers of India:"
+      echo "Sardar Vallabhbhai Patel (1st Home Minister)"
+      echo "Indira Gandhi (2nd Home Minister)"
+      echo "Lal Krishna Advani (Home Minister during 1998-2004)"
+      echo "Rajnath Singh (Current Home Minister)"
       ;;
     7)
-      echo "भारत की नदियाँ:"
-      echo "गंगा, यमुना, ब्रह्मपुत्र, गोदावरी, नर्मदा, कावेरी, सतलज आदि।"
+      echo "Mountains of India:"
+      echo "Himalayas"
+      echo "Aravalli Range"
+      echo "Vindhya Range"
+      echo "Sahyadri (Western Ghats)"
+      echo "Nilgiri Hills"
       ;;
     8)
-      echo "भारत के पर्वत:"
-      echo "हिमालय, अरावली, विंध्याचल, सह्याद्रि, नीलगिरी आदि।"
+      echo "Rivers of India:"
+      echo "Ganges"
+      echo "Yamuna"
+      echo "Brahmaputra"
+      echo "Godavari"
+      echo "Narmada"
+      echo "Kaveri"
+      echo "Sutlej"
+      echo "Mahanadi"
       ;;
     9)
-      echo "भारत के ज्वालामुखी:"
-      echo "बैरन द्वीप (सक्रिय ज्वालामुखी) अंडमान निकोबार में स्थित है।"
+      echo "Volcanoes of India:"
+      echo "Barren Island (Active Volcano in Andaman and Nicobar Islands)"
       ;;
     10)
-      echo "भारत के द्वीप:"
-      echo "अंडमान और निकोबार द्वीपसमूह, लक्षद्वीप।"
+      echo "Islands of India:"
+      echo "Andaman and Nicobar Islands"
+      echo "Lakshadweep Islands"
       ;;
     11)
-      echo "भारत के समुद्र और महासागर:"
-      echo "हिंद महासागर, अरब सागर और बंगाल की खाड़ी।"
+      echo "Oceans of India:"
+      echo "Indian Ocean"
       ;;
     12)
-      echo "भारत के राज्य और उनकी राजधानी:"
-      echo "उत्तर प्रदेश - लखनऊ"
-      echo "महाराष्ट्र - मुंबई"
-      echo "तमिलनाडु - चेन्नई"
-      echo "और अन्य राज्यों की सूची।"
+      echo "Seas of India:"
+      echo "Arabian Sea"
+      echo "Bay of Bengal"
       ;;
     13)
-      echo "धन्यवाद! कार्यक्रम से बाहर निकल रहे हैं।"
+      echo "Thank you! Exiting the program."
       exit 0
       ;;
     *)
-      echo "गलत विकल्प! कृपया सही विकल्प चुनें।"
+      echo "Invalid choice! Please select a valid option."
       ;;
   esac
 }
@@ -89,7 +138,7 @@ handle_choice() {
 # Main script logic
 while true; do
   display_menu
-  read -p "अपना विकल्प दर्ज करें: " choice
+  read -p "Enter your choice: " choice
   handle_choice $choice
   echo
 done
