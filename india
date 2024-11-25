@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Function to display geographic introduction
+# Function for Introduction to India
 intro_india() {
   while true; do
     echo "****************************************************"
     echo "                Introduction to India"
     echo "****************************************************"
-    echo "India is a vast country located in South Asia."
-    echo "Area: 3,287,263 square kilometers."
-    echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
+    echo "India is located in South Asia and is the seventh-largest country by area."
     echo "Capital: New Delhi."
-    echo "Largest City: Mumbai."
+    echo "Official Languages: Hindi and English."
+    echo "Currency: Indian Rupee (INR)."
+    echo "Neighboring Countries: Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar."
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -18,18 +18,18 @@ intro_india() {
   done
 }
 
-# Function to display rivers of India
+# Function for Rivers of India
 rivers_of_india() {
   while true; do
     echo "****************************************************"
     echo "                  Rivers of India"
     echo "****************************************************"
-    echo "1. Ganga: Sacred river, flows through northern India."
-    echo "2. Yamuna: Tributary of the Ganga, flows through Delhi."
-    echo "3. Brahmaputra: Major river in northeast India."
-    echo "4. Godavari: Longest river in southern India."
-    echo "5. Narmada: Flows westwards into the Arabian Sea."
-    echo "6. Krishna and Kaveri: Key rivers in the south."
+    echo "1. Ganga"
+    echo "2. Yamuna"
+    echo "3. Brahmaputra"
+    echo "4. Godavari"
+    echo "5. Krishna"
+    echo "6. Kaveri"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -37,17 +37,17 @@ rivers_of_india() {
   done
 }
 
-# Function to display mountains of India
+# Function for Mountains of India
 mountains_of_india() {
   while true; do
     echo "****************************************************"
     echo "                Mountains of India"
     echo "****************************************************"
-    echo "1. The Himalayas: Highest mountain range, includes Mount Everest and Kanchenjunga."
-    echo "2. Aravalli Range: Oldest mountain range in India."
-    echo "3. Western Ghats: UNESCO World Heritage Site, runs parallel to the western coast."
-    echo "4. Eastern Ghats: Runs along the eastern coast."
-    echo "5. Vindhya Range: Separates northern and southern India."
+    echo "1. Himalayas"
+    echo "2. Aravalli Range"
+    echo "3. Western Ghats"
+    echo "4. Eastern Ghats"
+    echo "5. Vindhya Range"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -55,15 +55,15 @@ mountains_of_india() {
   done
 }
 
-# Function to display volcanoes of India
+# Function for Volcanoes of India
 volcanoes_of_india() {
   while true; do
     echo "****************************************************"
     echo "                Volcanoes of India"
     echo "****************************************************"
-    echo "1. Barren Island Volcano: Only active volcano in South Asia, located in the Andaman Islands."
-    echo "2. Narcondam Volcano: Dormant volcano in the Andaman Islands."
-    echo "3. Dhinodhar Hills: Extinct volcano in Gujarat."
+    echo "1. Barren Island Volcano (Active)"
+    echo "2. Narcondam Volcano (Dormant)"
+    echo "3. Dhinodhar Hills (Extinct)"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -71,27 +71,18 @@ volcanoes_of_india() {
   done
 }
 
-# Function to display all Prime Ministers of India
+# Function for Prime Ministers of India
 prime_ministers_of_india() {
   while true; do
     echo "****************************************************"
     echo "            Prime Ministers of India"
     echo "****************************************************"
     echo "1. Jawaharlal Nehru (1947–1964)"
-    echo "2. Gulzarilal Nanda (1964, 1966 - Interim)"
-    echo "3. Lal Bahadur Shastri (1964–1966)"
-    echo "4. Indira Gandhi (1966–1977, 1980–1984)"
-    echo "5. Morarji Desai (1977–1979)"
-    echo "6. Charan Singh (1979–1980)"
-    echo "7. Rajiv Gandhi (1984–1989)"
-    echo "8. Vishwanath Pratap Singh (1989–1990)"
-    echo "9. Chandra Shekhar (1990–1991)"
-    echo "10. P. V. Narasimha Rao (1991–1996)"
-    echo "11. Atal Bihari Vajpayee (1996, 1998–2004)"
-    echo "12. H. D. Deve Gowda (1996–1997)"
-    echo "13. I. K. Gujral (1997–1998)"
-    echo "14. Manmohan Singh (2004–2014)"
-    echo "15. Narendra Modi (2014–Present)"
+    echo "2. Lal Bahadur Shastri (1964–1966)"
+    echo "3. Indira Gandhi (1966–1977, 1980–1984)"
+    echo "4. Rajiv Gandhi (1984–1989)"
+    echo "5. Atal Bihari Vajpayee (1996, 1998–2004)"
+    echo "6. Narendra Modi (2014–Present)"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -99,22 +90,14 @@ prime_ministers_of_india() {
   done
 }
 
-# Function to display all Home Ministers of India
+# Function for Home Ministers of India
 home_ministers_of_india() {
   while true; do
     echo "****************************************************"
     echo "            Home Ministers of India"
     echo "****************************************************"
     echo "1. Sardar Vallabhbhai Patel (1947–1950)"
-    echo "2. C. Rajagopalachari (1951)"
-    echo "3. Kailash Nath Katju (1951–1955)"
-    echo "4. Govind Ballabh Pant (1955–1961)"
-    echo "5. Lal Bahadur Shastri (1961–1963)"
-    echo "6. Gulzarilal Nanda (1963–1966)"
-    echo "7. Yashwantrao Chavan (1966–1970)"
-    echo "8. Indira Gandhi (1970–1973)"
-    echo "9. Charan Singh (1979–1980)"
-    echo "10. P. Chidambaram, Amit Shah (Multiple Terms)"
+    echo "2. Amit Shah (2019–Present)"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -122,24 +105,15 @@ home_ministers_of_india() {
   done
 }
 
-# Function to display all Presidents of India
+# Function for Presidents of India
 presidents_of_india() {
   while true; do
     echo "****************************************************"
     echo "            Presidents of India"
     echo "****************************************************"
     echo "1. Dr. Rajendra Prasad (1950–1962)"
-    echo "2. Dr. S. Radhakrishnan (1962–1967)"
-    echo "3. Dr. Zakir Husain (1967–1969)"
-    echo "4. V. V. Giri (1969–1974)"
-    echo "5. Fakhruddin Ali Ahmed (1974–1977)"
-    echo "6. Neelam Sanjiva Reddy (1977–1982)"
-    echo "7. Giani Zail Singh (1982–1987)"
-    echo "8. R. Venkataraman (1987–1992)"
-    echo "9. Dr. A. P. J. Abdul Kalam (2002–2007)"
-    echo "10. Pratibha Patil (2007–2012)"
-    echo "11. Ram Nath Kovind (2017–2022)"
-    echo "12. Droupadi Murmu (2022–Present)"
+    echo "2. Dr. A.P.J. Abdul Kalam (2002–2007)"
+    echo "3. Droupadi Murmu (2022–Present)"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -147,27 +121,15 @@ presidents_of_india() {
   done
 }
 
-# Function to display all National Symbols of India
+# Function for National Symbols of India
 national_symbols_of_india() {
   while true; do
     echo "****************************************************"
     echo "            National Symbols of India"
     echo "****************************************************"
-    echo "1. National Flag: Tricolor with saffron, white, and green, and a navy blue Ashoka Chakra."
-    echo "2. National Anthem: Jana Gana Mana."
-    echo "3. National Song: Vande Mataram."
-    echo "4. National Flower: Lotus."
-    echo "5. National Tree: Banyan."
-    echo "6. National Animal: Bengal Tiger."
-    echo "7. National Bird: Indian Peacock."
-    echo "8. National Sport: Field Hockey."
-    echo "9. National Currency: Indian Rupee (INR)."
-    echo "10. National Emblem: The Lion Capital of Ashoka."
-    echo "11. National Fruit: Mango."
-    echo "12. National Reptile: King Cobra."
-    echo "13. National Aquatic Animal: Ganges River Dolphin."
-    echo "14. National Heritage Animal: Indian Elephant."
-    echo "15. National Vegetable: Pumpkin."
+    echo "1. National Flag: Tricolor"
+    echo "2. National Animal: Bengal Tiger"
+    echo "3. National Bird: Peacock"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -175,24 +137,77 @@ national_symbols_of_india() {
   done
 }
 
-# Function to display Emperors who ruled over India
+# Function for Union Territories of India
+union_territories_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "            Union Territories of India"
+    echo "****************************************************"
+    echo "1. Andaman and Nicobar Islands"
+    echo "2. Chandigarh"
+    echo "3. Lakshadweep"
+    echo "****************************************************"
+    echo "Press Enter to go back."
+    read
+    return
+  done
+}
+
+# Function for Tribes of India
+tribes_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "                  Tribes of India"
+    echo "****************************************************"
+    echo "1. Gond (Madhya Pradesh)"
+    echo "2. Santhal (Jharkhand)"
+    echo "3. Bhil (Rajasthan)"
+    echo "****************************************************"
+    echo "Press Enter to go back."
+    read
+    return
+  done
+}
+
+# Function for Nuclear Plants in India
+nuclear_plants_of_india() {
+  while true; do
+    echo "****************************************************"
+    echo "          Nuclear Plants in India"
+    echo "****************************************************"
+    echo "1. Tarapur Atomic Power Plant (Maharashtra)"
+    echo "2. Kudankulam Nuclear Power Plant (Tamil Nadu)"
+    echo "****************************************************"
+    echo "Press Enter to go back."
+    read
+    return
+  done
+}
+
+# Function for Rivers and Dams in India
+rivers_and_dams() {
+  while true; do
+    echo "****************************************************"
+    echo "               Rivers and Dams"
+    echo "****************************************************"
+    echo "1. Bhakra Nangal Dam (Sutlej River, Himachal Pradesh)"
+    echo "2. Sardar Sarovar Dam (Narmada River, Gujarat)"
+    echo "****************************************************"
+    echo "Press Enter to go back."
+    read
+    return
+  done
+}
+
+# Function for Emperors who ruled India
 emperors_of_india() {
   while true; do
     echo "****************************************************"
-    echo "            Emperors who Ruled over India"
+    echo "         Emperors who Ruled Over India"
     echo "****************************************************"
-    echo "1. Chandragupta Maurya (321–297 BCE) - Maurya Empire"
-    echo "2. Ashoka the Great (268–232 BCE) - Maurya Empire"
-    echo "3. Samudragupta (335–380 CE) - Gupta Empire"
-    echo "4. Chandragupta II (380–415 CE) - Gupta Empire"
-    echo "5. Harsha Vardhana (606–647 CE) - Vardhana Empire"
-    echo "6. Rajendra Chola I (1014–1044 CE) - Chola Dynasty"
-    echo "7. Krishnadevaraya (1509–1529 CE) - Vijayanagara Empire"
-    echo "8. Akbar the Great (1556–1605 CE) - Mughal Empire"
-    echo "9. Shah Jahan (1628–1658 CE) - Mughal Empire"
-    echo "10. Aurangzeb (1658–1707 CE) - Mughal Empire"
-    echo "11. Shivaji Maharaj (1674–1680 CE) - Maratha Empire"
-    echo "12. Ranjit Singh (1780–1839 CE) - Sikh Empire"
+    echo "1. Chandragupta Maurya (Maurya Empire)"
+    echo "2. Akbar the Great (Mughal Empire)"
+    echo "3. Shivaji Maharaj (Maratha Empire)"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -215,10 +230,14 @@ while true; do
   echo "6. Home Ministers of India"
   echo "7. Presidents of India"
   echo "8. National Symbols of India"
-  echo "9. Emperors who Ruled over India"
-  echo "10. Exit"
+  echo "9. Union Territories of India"
+  echo "10. Tribes of India"
+  echo "11. Nuclear Plants of India"
+  echo "12. Rivers and Dams in India"
+  echo "13. Emperors who Ruled Over India"
+  echo "14. Exit"
   echo "****************************************************"
-  read -p "Enter your choice [1-10]: " choice
+  read -p "Enter your choice [1-14]: " choice
 
   case $choice in
     1) intro_india ;;
@@ -229,8 +248,12 @@ while true; do
     6) home_ministers_of_india ;;
     7) presidents_of_india ;;
     8) national_symbols_of_india ;;
-    9) emperors_of_india ;;
-    10) echo "Exiting... Goodbye!" ; break ;;
+    9) union_territories_of_india ;;
+    10) tribes_of_india ;;
+    11) nuclear_plants_of_india ;;
+    12) rivers_and_dams ;;
+    13) emperors_of_india ;;
+    14) echo "Exiting... Goodbye!" ; break ;;
     *) echo "Invalid choice! Please select a valid option." ;;
   esac
 done
