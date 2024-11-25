@@ -26,13 +26,17 @@ handle_choice() {
     1)
       echo "Introduction of India:"
       echo "India, officially the Republic of India, is a country in South Asia."
-      echo "It is the seventh-largest country by land area, and the second-most populous country."
-      echo "Its capital is New Delhi, and the largest city is Mumbai."
+      echo "It is the seventh-largest country by land area, and the second-most populous country, with over 1.4 billion people."
+      echo "India shares borders with Pakistan, China, Nepal, Bhutan, Bangladesh, and Myanmar, and has a coastline along the Indian Ocean."
+      echo "The country has a rich cultural heritage and diverse traditions, languages, and religions. It is home to some of the world's oldest civilizations, including the Indus Valley Civilization."
+      echo "India gained independence from British rule on August 15, 1947."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     2)
       echo "States and Capitals of India:"
+      echo "India consists of 28 states and 8 Union Territories."
+      echo "Here are some of the states and their capitals:"
       echo "Andhra Pradesh - Amaravati"
       echo "Arunachal Pradesh - Itanagar"
       echo "Assam - Dispur"
@@ -55,7 +59,6 @@ handle_choice() {
       echo "Sikkim - Gangtok"
       echo "Tamil Nadu - Chennai"
       echo "Telangana - Hyderabad"
-      echo "Tripura - Agartala"
       echo "Uttar Pradesh - Lucknow"
       echo "Uttarakhand - Dehradun"
       echo "West Bengal - Kolkata"
@@ -64,86 +67,115 @@ handle_choice() {
       ;;
     3)
       echo "National Symbol of India:"
-      echo "The national symbol of India is the Lion Capital of Ashoka."
+      echo "The national symbol of India is the Lion Capital of Ashoka, which was adopted in 1950."
+      echo "The emblem is based on the Lion Capital of Ashoka, a sculpture from the Maurya dynasty, dating back to 250 BCE."
       echo "It features four lions standing back-to-back, symbolizing power, courage, pride, and confidence."
+      echo "The national motto 'Satyamev Jayate' (Truth Alone Triumphs) is inscribed on a ribbon beneath the lions."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     4)
       echo "Presidents of India:"
-      echo "Dr. Rajendra Prasad (1st President)"
-      echo "Dr. Sarvepalli Radhakrishnan (2nd President)"
-      echo "Dr. Zakir Husain (3rd President)"
-      echo "Fakhruddin Ali Ahmed (5th President)"
-      echo "Ram Nath Kovind (14th President)"
+      echo "India's first President was Dr. Rajendra Prasad, who served from 1950 to 1962."
+      echo "The list of Presidents of India includes:"
+      echo "1st - Dr. Rajendra Prasad"
+      echo "2nd - Dr. Sarvepalli Radhakrishnan"
+      echo "3rd - Dr. Zakir Husain"
+      echo "4th - Fakhruddin Ali Ahmed"
+      echo "5th - V. V. Giri"
+      echo "6th - R. Venkataraman"
+      echo "7th - Giani Zail Singh"
+      echo "8th - R. Narayanan"
+      echo "9th - Dr. K. R. Narayanan"
+      echo "10th - Pratibha Patil"
+      echo "11th - Pranab Mukherjee"
+      echo "12th - Ram Nath Kovind (Current President)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     5)
       echo "Prime Ministers of India:"
-      echo "Jawaharlal Nehru (1st Prime Minister)"
-      echo "Gulzarilal Nanda (Acting Prime Minister)"
-      echo "Indira Gandhi (1st Female Prime Minister)"
-      echo "Rajiv Gandhi (6th Prime Minister)"
-      echo "Narendra Modi (14th Prime Minister)"
+      echo "The first Prime Minister of India was Jawaharlal Nehru, who served from 1947 to 1964."
+      echo "The list of Prime Ministers includes:"
+      echo "1st - Jawaharlal Nehru"
+      echo "2nd - Lal Bahadur Shastri"
+      echo "3rd - Indira Gandhi"
+      echo "4th - Rajiv Gandhi"
+      echo "5th - Vishwanath Pratap Singh"
+      echo "6th - Chandra Shekhar"
+      echo "7th - P. V. Narasimha Rao"
+      echo "8th - Atal Bihari Vajpayee"
+      echo "9th - Manmohan Singh"
+      echo "10th - Narendra Modi (Current Prime Minister)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     6)
       echo "Home Ministers of India:"
-      echo "Sardar Vallabhbhai Patel (1st Home Minister)"
-      echo "Indira Gandhi (2nd Home Minister)"
-      echo "Lal Krishna Advani (Home Minister during 1998-2004)"
-      echo "Rajnath Singh (Current Home Minister)"
+      echo "The Home Minister of India is responsible for overseeing internal security, law and order, and the country's border protection."
+      echo "Here are the Home Ministers of India:"
+      echo "1st - Sardar Vallabhbhai Patel"
+      echo "2nd - Indira Gandhi"
+      echo "3rd - Lal Krishna Advani"
+      echo "4th - P. Chidambaram"
+      echo "5th - Rajnath Singh (Current Home Minister)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     7)
       echo "Mountains of India:"
-      echo "Himalayas"
-      echo "Aravalli Range"
-      echo "Vindhya Range"
-      echo "Sahyadri (Western Ghats)"
-      echo "Nilgiri Hills"
+      echo "India is home to some of the highest mountain ranges in the world, including the Himalayas."
+      echo "Notable mountains include:"
+      echo "1. Mount Kanchenjunga (8,586 meters) - The highest peak in India."
+      echo "2. Mount Everest (8,848 meters) - Located in Nepal but part of the Himalayas."
+      echo "3. Nanda Devi (7,816 meters) - The second-highest peak in India."
+      echo "4. Annapurna Range"
+      echo "5. Aravalli Range (Oldest mountain range)"
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     8)
       echo "Rivers of India:"
-      echo "Ganges"
-      echo "Yamuna"
-      echo "Brahmaputra"
-      echo "Godavari"
-      echo "Narmada"
-      echo "Kaveri"
-      echo "Sutlej"
-      echo "Mahanadi"
+      echo "India is known for its major rivers which have been central to the culture and economy."
+      echo "The most famous rivers include:"
+      echo "1. Ganges (2,525 kilometers) - The holiest river for Hindus."
+      echo "2. Yamuna (1,376 kilometers) - Major tributary of the Ganges."
+      echo "3. Brahmaputra (2,900 kilometers) - Known for its immense size and flooding."
+      echo "4. Godavari (1,465 kilometers) - Second longest river in India."
+      echo "5. Narmada (1,312 kilometers) - Flows westward into the Arabian Sea."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     9)
       echo "Volcanoes of India:"
-      echo "Barren Island (Active Volcano in Andaman and Nicobar Islands)"
+      echo "India has several dormant and active volcanoes, mainly in the Andaman and Nicobar Islands."
+      echo "Some of the known volcanoes are:"
+      echo "1. Barren Island (Active) - Located in the Andaman and Nicobar Islands."
+      echo "2. Narcondam Island (Dormant) - Also located in the Andaman Islands."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     10)
       echo "Islands of India:"
-      echo "Andaman and Nicobar Islands"
-      echo "Lakshadweep Islands"
+      echo "India has two main island groups:"
+      echo "1. Andaman and Nicobar Islands - Located in the Bay of Bengal, known for their biodiversity."
+      echo "2. Lakshadweep Islands - Located in the Arabian Sea, known for their coral reefs."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     11)
       echo "Oceans of India:"
-      echo "Indian Ocean"
+      echo "India is surrounded by the following oceans:"
+      echo "1. Indian Ocean - The third-largest ocean, bordering the southern coast of India."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
     12)
       echo "Seas of India:"
-      echo "Arabian Sea"
-      echo "Bay of Bengal"
+      echo "India has three major seas surrounding its coast:"
+      echo "1. Arabian Sea - To the west of India."
+      echo "2. Bay of Bengal - To the east of India."
+      echo "3. Andaman Sea - Around the Andaman Islands."
       echo "Press any key to go back to the main menu..."
       read -n 1
       ;;
