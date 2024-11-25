@@ -175,45 +175,24 @@ national_symbols_of_india() {
   done
 }
 
-# Function to display Tribes of India and their states
-tribes_of_india() {
+# Function to display Emperors who ruled over India
+emperors_of_india() {
   while true; do
     echo "****************************************************"
-    echo "                Tribes of India and Their States"
+    echo "            Emperors who Ruled over India"
     echo "****************************************************"
-    echo "1. Santhals - Jharkhand, Odisha, Bihar, West Bengal"
-    echo "2. Gonds - Madhya Pradesh, Maharashtra, Odisha"
-    echo "3. Bhils - Rajasthan, Gujarat, Madhya Pradesh"
-    echo "4. Meenas - Rajasthan"
-    echo "5. Nagas - Nagaland"
-    echo "6. Konyaks - Nagaland"
-    echo "7. Todas - Tamil Nadu"
-    echo "8. Bodos - Assam"
-    echo "9. Khasi - Meghalaya"
-    echo "10. Mishing - Assam"
-    echo "11. Warli - Maharashtra, Gujarat"
-    echo "12. Sikkimese Lepcha - Sikkim"
-    echo "13. Bakarwals - Jammu & Kashmir"
-    echo "14. Chakmas - Mizoram"
-    echo "****************************************************"
-    echo "Press Enter to go back."
-    read
-    return
-  done
-}
-
-# Function to display Union Territories of India
-union_territories_of_india() {
-  while true; do
-    echo "****************************************************"
-    echo "                Union Territories of India"
-    echo "****************************************************"
-    echo "1. Andaman and Nicobar Islands"
-    echo "2. Chandigarh"
-    echo "3. Dadra and Nagar Haveli and Daman and Diu"
-    echo "4. Lakshadweep"
-    echo "5. Delhi"
-    echo "6. Puducherry"
+    echo "1. Chandragupta Maurya (321–297 BCE) - Maurya Empire"
+    echo "2. Ashoka the Great (268–232 BCE) - Maurya Empire"
+    echo "3. Samudragupta (335–380 CE) - Gupta Empire"
+    echo "4. Chandragupta II (380–415 CE) - Gupta Empire"
+    echo "5. Harsha Vardhana (606–647 CE) - Vardhana Empire"
+    echo "6. Rajendra Chola I (1014–1044 CE) - Chola Dynasty"
+    echo "7. Krishnadevaraya (1509–1529 CE) - Vijayanagara Empire"
+    echo "8. Akbar the Great (1556–1605 CE) - Mughal Empire"
+    echo "9. Shah Jahan (1628–1658 CE) - Mughal Empire"
+    echo "10. Aurangzeb (1658–1707 CE) - Mughal Empire"
+    echo "11. Shivaji Maharaj (1674–1680 CE) - Maratha Empire"
+    echo "12. Ranjit Singh (1780–1839 CE) - Sikh Empire"
     echo "****************************************************"
     echo "Press Enter to go back."
     read
@@ -236,11 +215,10 @@ while true; do
   echo "6. Home Ministers of India"
   echo "7. Presidents of India"
   echo "8. National Symbols of India"
-  echo "9. Union Territories of India"
-  echo "10. Tribes of India"
-  echo "11. Exit"
+  echo "9. Emperors who Ruled over India"
+  echo "10. Exit"
   echo "****************************************************"
-  read -p "Enter your choice [1-11]: " choice
+  read -p "Enter your choice [1-10]: " choice
 
   case $choice in
     1) intro_india ;;
@@ -251,9 +229,8 @@ while true; do
     6) home_ministers_of_india ;;
     7) presidents_of_india ;;
     8) national_symbols_of_india ;;
-    9) union_territories_of_india ;;
-    10) tribes_of_india ;;
-    11) echo "Exiting... Goodbye!" ; break ;;
+    9) emperors_of_india ;;
+    10) echo "Exiting... Goodbye!" ; break ;;
     *) echo "Invalid choice! Please select a valid option." ;;
   esac
 done
