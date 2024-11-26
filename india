@@ -1,18 +1,18 @@
 #!/bin/bash
 
-# Colors for font customization
+# Colors for text formatting
 RESET="\e[0m"
 RED="\e[31m"
 GREEN="\e[32m"
 CYAN="\e[36m"
 
-# Function to display the menu
+# Function to display the main menu
 display_menu() {
-  echo -e "${GREEN}Choose an option to get information about India:${RESET}"
+  echo -e "${GREEN}Welcome! Choose an option to get detailed information about India:${RESET}"
   echo "--------------------------------------------------"
   echo -e "${CYAN}1. Introduction of India${RESET}"
-  echo -e "${CYAN}2. State and Capital of India${RESET}"
-  echo -e "${CYAN}3. National Symbol of India${RESET}"
+  echo -e "${CYAN}2. States and Capitals of India${RESET}"
+  echo -e "${CYAN}3. National Symbols of India${RESET}"
   echo -e "${CYAN}4. Presidents of India${RESET}"
   echo -e "${CYAN}5. Prime Ministers of India${RESET}"
   echo -e "${CYAN}6. Home Ministers of India${RESET}"
@@ -30,48 +30,112 @@ display_menu() {
   echo "--------------------------------------------------"
 }
 
-# Function to handle menu choice
+# Function to handle user choice
 handle_choice() {
   case $1 in
     1)
-      echo -e "${GREEN}Introduction of India:${RESET}"
-      echo "India, officially the Republic of India, is a country located in South Asia..."
-      echo "Press any key to go back to the main menu..."
-      read -n 1
+      echo -e "${CYAN}Introduction of India:${RESET}"
+      echo "India, officially the Republic of India, is located in South Asia. It is the seventh-largest country by land area and the second-most populous country in the world, with over 1.4 billion people."
+      echo "India is known for its diverse culture, languages, and traditions, with 22 officially recognized languages and hundreds of dialects. It gained independence on August 15, 1947."
       ;;
-    # Other options (2-15) remain unchanged here
-    # Example of existing options truncated for brevity
+    2)
+      echo -e "${CYAN}States and Capitals of India:${RESET}"
+      echo "India has 28 states and 8 Union Territories. Here are some examples:"
+      echo "1. Andhra Pradesh - Amaravati"
+      echo "2. Assam - Dispur"
+      echo "3. Gujarat - Gandhinagar"
+      echo "4. Uttar Pradesh - Lucknow"
+      echo "5. Delhi (Union Territory) - New Delhi"
+      ;;
+    3)
+      echo -e "${CYAN}National Symbols of India:${RESET}"
+      echo "1. National Flag: Tricolor with saffron, white, and green, featuring a 24-spoke Ashoka Chakra."
+      echo "2. National Animal: Bengal Tiger."
+      echo "3. National Bird: Peacock."
+      echo "4. National Flower: Lotus."
+      echo "5. National Tree: Banyan."
+      ;;
+    4)
+      echo -e "${CYAN}Presidents of India:${RESET}"
+      echo "India's first President was Dr. Rajendra Prasad (1950–1962). Recent Presidents include:"
+      echo "1. Pranab Mukherjee (2012–2017)"
+      echo "2. Ram Nath Kovind (2017–2022)"
+      echo "3. Droupadi Murmu (2022–present)"
+      ;;
+    5)
+      echo -e "${CYAN}Prime Ministers of India:${RESET}"
+      echo "India's first Prime Minister was Jawaharlal Nehru (1947–1964). Recent Prime Ministers include:"
+      echo "1. Atal Bihari Vajpayee (1998–2004)"
+      echo "2. Manmohan Singh (2004–2014)"
+      echo "3. Narendra Modi (2014–present)"
+      ;;
+    6)
+      echo -e "${CYAN}Home Ministers of India:${RESET}"
+      echo "1. Sardar Vallabhbhai Patel - The first Home Minister of India."
+      echo "2. Amit Shah - The current Home Minister."
+      ;;
+    7)
+      echo -e "${CYAN}Mountains of India:${RESET}"
+      echo "1. Himalayas - Home to the world's highest peaks like Kanchenjunga."
+      echo "2. Western Ghats - A UNESCO World Heritage Site."
+      echo "3. Aravalli Range - One of the oldest mountain ranges."
+      ;;
+    8)
+      echo -e "${CYAN}Rivers of India:${RESET}"
+      echo "1. Ganga - Sacred river of India."
+      echo "2. Yamuna - Tributary of the Ganga."
+      echo "3. Brahmaputra - Known for its vast size."
+      ;;
+    9)
+      echo -e "${CYAN}Volcanoes of India:${RESET}"
+      echo "1. Barren Island - The only active volcano in India."
+      echo "2. Narcondam - A dormant volcano."
+      ;;
+    10)
+      echo -e "${CYAN}Islands of India:${RESET}"
+      echo "1. Andaman and Nicobar Islands - Located in the Bay of Bengal."
+      echo "2. Lakshadweep - Located in the Arabian Sea."
+      ;;
+    11)
+      echo -e "${CYAN}Oceans of India:${RESET}"
+      echo "India is surrounded by the Indian Ocean, Arabian Sea, and Bay of Bengal."
+      ;;
+    12)
+      echo -e "${CYAN}Seas of India:${RESET}"
+      echo "1. Andaman Sea"
+      echo "2. Laccadive Sea"
+      ;;
+    13)
+      echo -e "${CYAN}Nuclear Reactors of India:${RESET}"
+      echo "1. Kudankulam Nuclear Power Plant - Tamil Nadu."
+      echo "2. Tarapur Atomic Power Station - Maharashtra."
+      ;;
+    14)
+      echo -e "${CYAN}Satellites of India:${RESET}"
+      echo "India has launched satellites like Chandrayaan, Mangalyaan, and the GSAT series."
+      ;;
+    15)
+      echo -e "${CYAN}Seasons of India:${RESET}"
+      echo "India has four seasons: Summer, Monsoon, Autumn, and Winter."
+      ;;
     16)
       echo -e "${CYAN}Famous Festivals of India:${RESET}"
-      echo "India is known for its diverse culture, and festivals are an integral part of its traditions. Here are some of the most famous festivals celebrated across the country:"
-      echo "1. **Diwali**: Known as the Festival of Lights, celebrated to mark the return of Lord Rama to Ayodhya after defeating Ravana. Houses are decorated with lamps, candles, and rangoli."
-      echo "2. **Holi**: The Festival of Colors celebrates the victory of good over evil. People play with colored powders, water, and enjoy festive sweets like gujiya."
-      echo "3. **Navratri/Durga Puja**: Celebrated to honor Goddess Durga, this festival includes fasting, prayers, and dance forms like Garba and Dandiya in Gujarat and Durga Puja in Bengal."
-      echo "4. **Eid-ul-Fitr**: Celebrated by Muslims to mark the end of Ramadan, it involves prayers, feasting, and sharing meals with loved ones."
-      echo "5. **Christmas**: Celebrated by Christians and others, it marks the birth of Jesus Christ. It includes decorating Christmas trees, attending church services, and exchanging gifts."
-      echo "6. **Ganesh Chaturthi**: Dedicated to Lord Ganesha, this festival includes the installation of idols at homes and public places, followed by processions and immersion in water."
-      echo "7. **Raksha Bandhan**: A festival that celebrates the bond between brothers and sisters. Sisters tie a rakhi (sacred thread) on their brothers' wrists in exchange for promises of protection."
-      echo "8. **Pongal/Makar Sankranti**: Harvest festivals celebrated in Tamil Nadu and other parts of India, marking the transition of the Sun into the zodiac sign Capricorn."
-      echo "9. **Onam**: Kerala’s harvest festival that celebrates King Mahabali's annual visit. It includes traditional feasts, boat races, and folk dances."
-      echo "10. **Baisakhi**: Celebrated in Punjab, this festival marks the harvest season and the formation of the Khalsa in Sikhism."
-      echo "11. **Dussehra**: Marks the victory of Lord Rama over Ravana, symbolizing the triumph of good over evil. It is celebrated with Ram Lila plays and effigy burning."
-      echo "12. **Janmashtami**: Celebrates the birth of Lord Krishna with devotional songs, fasting, and the enactment of Krishna’s childhood antics."
-      echo "13. **Guru Nanak Jayanti**: Marks the birth of Guru Nanak, the founder of Sikhism. It includes prayers, kirtans, and langar (community meals)."
-      echo "14. **Mahashivratri**: Dedicated to Lord Shiva, devotees fast and offer prayers throughout the night."
-      echo "15. **Bihu**: Assam's most celebrated festival, marking the Assamese New Year with dances and traditional feasts."
-      echo "16. **Chhath Puja**: A festival in Bihar and UP dedicated to the Sun God, with rituals performed near rivers and ponds."
-      echo "Press any key to go back to the main menu..."
-      read -n 1
+      echo "1. Diwali - Festival of Lights."
+      echo "2. Holi - Festival of Colors."
+      echo "3. Eid - Celebrated by Muslims."
+      echo "4. Christmas - Celebrated by Christians."
+      echo "5. Durga Puja - Celebrated in Bengal."
       ;;
     17)
-      echo -e "${RED}Thank you! Exiting the program.${RESET}"
+      echo -e "${RED}Thank you for using the program! Exiting...${RESET}"
       exit 0
       ;;
     *)
       echo -e "${RED}Invalid option chosen! Please select a valid option.${RESET}"
-      sleep 1
       ;;
   esac
+  echo "Press any key to return to the main menu..."
+  read -n 1
 }
 
 # Main script loop
@@ -79,5 +143,4 @@ while true; do
   display_menu
   read -p "Enter your choice: " choice
   handle_choice $choice
-  echo
 done
