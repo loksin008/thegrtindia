@@ -26,7 +26,8 @@ display_menu() {
   echo -e "${CYAN}14. Satellites of India${RESET}"
   echo -e "${CYAN}15. Seasons of India${RESET}"
   echo -e "${CYAN}16. Famous Festivals of India${RESET}"
-  echo -e "${RED}17. Exit${RESET}"
+  echo -e "${CYAN}17. Metro Cities of India${RESET}"
+  echo -e "${RED}18. Exit${RESET}"
   echo "--------------------------------------------------"
 }
 
@@ -127,6 +128,22 @@ handle_choice() {
       echo "5. Durga Puja - Celebrated in Bengal."
       ;;
     17)
+      echo -e "${CYAN}Metro Cities of India:${RESET}"
+      echo "India's major metro cities include:"
+      echo "1. Delhi - National Capital Region"
+      echo "2. Mumbai - Financial capital of India"
+      echo "3. Bangalore - IT hub of India"
+      echo "4. Kolkata - Cultural capital of India"
+      echo "5. Chennai - Major commercial and cultural center"
+      echo "6. Hyderabad - Information technology and pharmaceuticals hub"
+      echo "7. Pune - Education and IT hub"
+      echo "8. Ahmedabad - Known for textiles and industrial hubs"
+      echo "9. Jaipur - Known for its historic forts and palaces"
+      echo "10. Surat - A major diamond processing and textile hub"
+      echo "11. Lucknow - Known for its Nawabi culture"
+      echo "12. Chandigarh - A union territory and modern city"
+      ;;
+    18)
       echo -e "${RED}Thank you for using the program! Exiting...${RESET}"
       exit 0
       ;;
